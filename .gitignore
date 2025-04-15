@@ -1,0 +1,6 @@
+rag-chatbot-env/
+data/faiss_index.bin
+data/faiss_metadata.pkl
+__pycache__/
+*.pyc
+.cache/
