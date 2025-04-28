@@ -1,4 +1,4 @@
-# Dr.X RAG Chatbot
+# DocuMind AI Chatbot
 
 A FastAPI-based Retrieval-Augmented Generation (RAG) chatbot that processes PDF, DOCX, and XLSX files, answers queries in English and Arabic, and summarizes responses with ROUGE evaluation. It retrieves relevant document chunks using FAISS, generates answers with Ollama (`llama3.2`), translates with Hugging Face models, extracts entities with spaCy, and redacts PII with Presidio.
 
@@ -60,7 +60,7 @@ The system optimizes for low latency with lazy model loading, FAISS caching, and
 1. **Clone Repo** (if hosted):
    ```bash
    git clone <repo-url>
-   cd Dr.X
+   cd DocuMindAI
    ```
 
 2. **Virtual Environment**:
@@ -106,7 +106,7 @@ The system optimizes for low latency with lazy model loading, FAISS caching, and
 ## Usage
 1. **Run Server**:
    ```bash
-   cd D:\Onedrive\OneDrive - IGO Solutions Ltd\Documents\AIGO Base\Code Base\Dr.X
+   cd D:\Onedrive\OneDrive - IGO Solutions Ltd\Documents\AIGO Base\Code Base\DocuMindAI
    .\rag-chatbot-env\Scripts\activate
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
@@ -128,7 +128,7 @@ The system optimizes for low latency with lazy model loading, FAISS caching, and
 
 ## Structure
 ```
-Dr.X/
+DocuMindAI/
 ├── data/
 │   ├── faiss_index.bin
 │   ├── faiss_metadata.pkl
